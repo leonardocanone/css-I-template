@@ -2,24 +2,37 @@
   padding: 0;
   margin: 0;
 }
-header{
-  
+
+main{
+  font-family: Helvetica, Arial, sans-serif;
 }
+/* Aqui nessa parte acima a Ana sugeriu colocarmos 3 fontes, pois dependendo do navegador não há suporte para determinadas fontes, portanto se a primeira falhar, a segunda poderá dar certo, e assim sucessivamente. */
 
 section{
   float: left;
 /*float é uma propriedade que permite deixar elementos à direita ou à esquerda da tela. Não costuma ser usado. Aqui, é usado apenas para ilustrar diferenças.*/
-  width: 840px;
-  padding: 40px;
+  
+  /* width: 840px; */
+  /* width: 60%; */
+  width: 60vw;
+  /* padding: 40px; */
+  padding: 4%;
 }
 
 aside{
   float:right;
  /*float é uma propriedade que permite deixar elementos à direita ou à esquerda da tela. Não costuma ser usado. Aqui, é usado apenas para ilustrar diferenças.*/
-  padding: 20px;
-  width: 340px;
+  /* padding: 20px; */
+  padding: 2%;
+  /* width: 340px; */
+  width: 25vw;
+  border: 2px black solid;
 }
 
 article{
   margin: 10px 0;
+  background-color: yellow;
+  /* height: 180px; */
+  height: 25%;
+  /* height: 25vh; */
 }

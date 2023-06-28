@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Perguntei p/ a Ana se começar o arquivo CSS com esse Seletor universal * com margin e padding zerados é uma boa prática e ela deu a seguinte resposta: "- É sim, Leo! Porque os navegadores já vem com uma margem padrão que pode atrapalhar nossos projetos. Pode usar sem problemas." */
+
+header{
+    height: 40px;
+    padding: 10px;
+    background-color: orange;
+    color: white;
+    border-bottom: 3px black solid;
+}
+
+footer{
+    height: 40px;
+    padding: 10px;
+    background-color: gray;
+    color: white;
+}
+
+main{
+    margin: 15px;
+    padding: 20px 30px;
+    width: 90vw;
+    height: 80vh;
+}
+
+article{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    /* margin: 25px  0; */
+}
+
+h1, h2{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.destaque{
+    color: darkorange;
+}

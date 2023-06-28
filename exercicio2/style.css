@@ -1,22 +1,36 @@
+
+/* Quero ficar mais longe das bordas:
+- A propriedade PADDING cria um espaço entre o conteúdo dentro do elemento e sua borda. Em outras palavras, ela faz com que o conteúdo se distancie da borda.
+- Outro teste que simulamos aqui, foi transformar um elemento INLINE em um elemento BLOCK. */
 .longe-bordas{
     background-color: #FFA6A9;
+    padding: 5px;
+    display: block;
   }
   
+  /* Quero ficar mais longe dos outros elementos:
+  A propriedade MARGIN representa o espaço que o elemento terá ao seu redor, ou seja, o espaço entre o elemento e outros elementos da página.*/
   .afastado{
     background-color: #77C0ED;
+    margin: 10px;
   }
+  
   .alto{
     background-color: #C3E887;
+    height: 300px;
+    /* display: inline; */
   }
   
   .largo{
-  background-color: #FFE396;
-  }
+    background-color: #FFE396;
+    width: 500px;
+}
   
   .bordado{
     background-color: #AF9BCC;
+    border: 2px black dashed;
   }
   
   .sumido{
-   
+   display: none;
   }
